@@ -14,8 +14,6 @@ module SendgridToolkit
         response.each do |message|
           parse_message_time message
         end
-      else
-        parse_message_time response
       end
       response
     end
